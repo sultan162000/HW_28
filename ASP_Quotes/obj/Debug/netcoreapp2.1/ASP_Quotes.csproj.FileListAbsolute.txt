@@ -1,0 +1,14 @@
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\bin\Debug\netcoreapp2.1\ASP_Quotes.deps.json
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\bin\Debug\netcoreapp2.1\ASP_Quotes.runtimeconfig.json
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\bin\Debug\netcoreapp2.1\ASP_Quotes.runtimeconfig.dev.json
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\bin\Debug\netcoreapp2.1\ASP_Quotes.dll
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\obj\Debug\netcoreapp2.1\ASP_Quotes.csprojAssemblyReference.cache
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\obj\Debug\netcoreapp2.1\ASP_Quotes.csproj.CoreCompileInputs.cache
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\obj\Debug\netcoreapp2.1\ASP_Quotes.RazorAssemblyInfo.cache
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\obj\Debug\netcoreapp2.1\ASP_Quotes.RazorAssemblyInfo.cs
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\obj\Debug\netcoreapp2.1\ASP_Quotes.AssemblyInfoInputs.cache
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\obj\Debug\netcoreapp2.1\ASP_Quotes.AssemblyInfo.cs
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\obj\Debug\netcoreapp2.1\ASP_Quotes.RazorTargetAssemblyInfo.cache
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\bin\Debug\netcoreapp2.1\ASP_Quotes.pdb
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\obj\Debug\netcoreapp2.1\ASP_Quotes.dll
+C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\obj\Debug\netcoreapp2.1\ASP_Quotes.pdb
