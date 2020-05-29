@@ -30,7 +30,7 @@ namespace ASP_Quotes
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddDbContext<ASP_QuotesContext>(options =>
-                    options.UseSqlServer("Data Source=mini.db"));
+                    options.UseSqlite("Data Source=mini.db"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

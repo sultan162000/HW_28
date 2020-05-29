@@ -14,6 +14,7 @@ namespace ASP_Quotes.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Quotes>().ToTable("Quotes");
             modelBuilder.Entity<Quotes>().HasData(
                 new Quotes { QuotesId = 1, Author="Вадим Зеланд", Text= "Чудо произойдет только в том случае, если вы сломаете привычный стереотип и будете думать не о средствах достижения, а о самой цели",InsertDate=DateTime.Now },
                 new Quotes { QuotesId=2,Author="Вадим Зеланд", Text= "Вы никогда ничего не измените, если будете бороться с существующим. Чтобы что-то изменить, постройте новую модель и сделайте существующее устаревшим.", InsertDate=DateTime.Now},
