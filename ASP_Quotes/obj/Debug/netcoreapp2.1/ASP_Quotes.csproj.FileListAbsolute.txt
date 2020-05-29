@@ -12,7 +12,3 @@ C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\obj\Debug\netcoreapp2.1\ASP_Q
 C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\bin\Debug\netcoreapp2.1\ASP_Quotes.pdb
 C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\obj\Debug\netcoreapp2.1\ASP_Quotes.dll
 C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\obj\Debug\netcoreapp2.1\ASP_Quotes.pdb
-C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\bin\Debug\netcoreapp2.1\appsettings.Development.json
-C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\bin\Debug\netcoreapp2.1\appsettings.json
-C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
-C:\Users\Sultan\source\repos\ASP_Quotes\ASP_Quotes\obj\Debug\netcoreapp2.1\ASP_Quotes.genruntimeconfig.cache

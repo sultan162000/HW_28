@@ -9,7 +9,7 @@ using ASP_Quotes.Models;
 
 namespace ASP_Quotes.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/Quotes")]
     [ApiController]
     public class QuotesController : ControllerBase
     {
@@ -24,6 +24,9 @@ namespace ASP_Quotes.Controllers
         [HttpGet]
         public IEnumerable<Quotes> GetQuotes()
         {
+            var list = _context.Quotes.SingleOrDefault(p => p.InsertDate.AddMonths(1) == DateTime.Now);
+            _context.Remove(list);
+            _context.SaveChanges();
             return _context.Quotes;
         }
 
@@ -90,6 +93,7 @@ namespace ASP_Quotes.Controllers
                 return BadRequest(ModelState);
             }
 
+            quotes.InsertDate = DateTime.Now;
             _context.Quotes.Add(quotes);
             await _context.SaveChangesAsync();
 

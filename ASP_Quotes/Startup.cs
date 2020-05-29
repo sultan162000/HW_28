@@ -31,6 +31,8 @@ namespace ASP_Quotes
 
             services.AddDbContext<ASP_QuotesContext>(options =>
                     options.UseSqlite("Data Source=mini.db"));
+            
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,9 +46,12 @@ namespace ASP_Quotes
             {
                 app.UseHsts();
             }
+            
+            
 
             app.UseHttpsRedirection();
             app.UseMvc();
+            
         }
     }
 }
