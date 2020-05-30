@@ -22,12 +22,18 @@ namespace ASP_Quotes.Controllers
 
         // GET: api/Quotes
         [HttpGet]
-        public IEnumerable<Quotes> GetQuotes()
+        public async Task<IEnumerable<Quotes>> GetQuotes()
         {
-            var list = _context.Quotes.SingleOrDefault(p => p.InsertDate.AddMonths(1) == DateTime.Now);
-            _context.Remove(list);
-            _context.SaveChanges();
+            await DeleteQuotes();
             return _context.Quotes;
+        }
+
+
+        public async Task DeleteQuotes()
+        {
+            var list = _context.Quotes.Where(m => m.InsertDate.AddMonths(1) == DateTime.Now);
+            await list.ForEachAsync(m=> { _context.Quotes.RemoveRange(); });
+            await _context.SaveChangesAsync();
         }
 
         // GET: api/Quotes/5
